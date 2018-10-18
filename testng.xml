@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="3" parallel="tests" thread-count="5">
+
+    <test name="Test on Firefox">
+        <parameter name="browser" value="Firefox" />
+        <classes>
+            <class name="package.classname" />
+        </classes>
+    </test>
+
+    <test name="Test on Chrome">
+        <parameter name="browser" value="Chrome" />
+        <classes>
+            <class name="package.classname" />
+        </classes>
+    </test>
+
+    <test name="Test on InternetExplorer">
+        <parameter name="browser" value="InternetExplorer" />
+        <classes>
+            <class name="package.classname" />
+        </classes>
+    </test>
+
+    <test name="Test on Safari">
+        <parameter name="browser" value="Safari" />
+        <classes>
+            <class name="package.classname" />
+        </classes>
+    </test>
+
+    <test name="Test on Opera">
+        <parameter name="browser" value="Opera" />
+        <classes>
+            <class name="package.classname" />
+        </classes>
+    </test>
+</suite>
+        <!-- Suite -->
